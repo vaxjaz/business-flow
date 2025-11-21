@@ -85,6 +85,9 @@ public class BusinessLifeCycleDefinitionBuilder {
         }
 
 
+        public BusinessLifeCycleDefinitionBuilder next() {
+            return parent;
+        }
     }
 
 
